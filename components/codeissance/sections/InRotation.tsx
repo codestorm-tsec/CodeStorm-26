@@ -52,7 +52,7 @@ export default function InRotation() {
     <section
       ref={sectionRef}
       id="sponsors"
-      className="section-dark grain-overlay relative overflow-hidden py-24 md:py-36"
+      className="section-dark grain-overlay relative overflow-hidden pt-12 pb-24 md:pt-2 md:pb-36"
       style={{ backgroundColor: "#1A1A1A" }}
     >
       {/* Checkered pattern background */}
@@ -74,12 +74,7 @@ export default function InRotation() {
 
         {/* Section Header */}
         <div ref={headerRef} className="mb-16 max-w-3xl opacity-0">
-          <p
-            className="text-xs uppercase tracking-[0.3em] font-semibold mb-4"
-            style={{ color: "#1DB954", fontFamily: "var(--font-body)" }}
-          >
-            Powering Codeissance
-          </p>
+          
           <h2
             className="text-3xl sm:text-6xl md:text-7xl font-normal leading-[1.1] text-white tracking-tight"
             style={{ fontFamily: "var(--font-body)" }}
@@ -92,7 +87,7 @@ export default function InRotation() {
         <div ref={gridRef} className="opacity-0">
 
           {/* Title Sponsor */}
-          <div className="mb-16">
+          <div className="mb-6">
             <p
               className="text-sm uppercase tracking-[0.4em] font-bold mb-8 text-center"
               style={{ color: "rgba(255,255,255,0.75)", fontFamily: "var(--font-body)" }}
@@ -148,6 +143,9 @@ export default function InRotation() {
               logos={[
                 { src: "/sponsors/unstop.png", alt: "Unstop" },
                 { src: "/sponsors/protech.png", alt: "Protech" },
+                { src: "/sponsors/dobra.jpeg", alt: "Dobra" },
+                { src: "/sponsors/impulse.png", alt: "Impulse" },
+                { src: "/sponsors/flextra.jpeg", alt: "Flextra" },
               ]}
               speed={50}
               direction="left"
